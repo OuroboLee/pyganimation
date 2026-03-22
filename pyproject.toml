@@ -1,0 +1,23 @@
+[project]
+name = "pyganimation"
+version = "0.1_dev"
+authors = [
+  { name="OuroboLee", email="ourobolee@gmail.com" },
+]
+description = "A Package for Making & Playing Animations in Pygame projects."
+readme = "README.md"
+requires-python = ">=3.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["./LICENSE"]
+dependencies = [
+  "pygame>=2.6.0",
+  "pymunk>=7.2.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/OuroboLee/pyganimation"
+Issues = "https://github.com/OuroboLee/pyganimation/issues"
